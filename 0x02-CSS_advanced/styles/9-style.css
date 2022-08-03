@@ -11,8 +11,8 @@ body {
     line-height: var(--line-height-base);
 }
 
-a:empty {
-    color: var(--text-color);
+a {
+    color: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
