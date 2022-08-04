@@ -142,6 +142,16 @@ ul.row {
     padding: 0.5rem;
   }
 
+  .footer ul {
+    text-align: right;
+  }
+  
+  .footer-copyright {
+    margin: 0;
+    font-size: var(--font-size-small);
+    color: var(--text-color);
+  }
+
 /*! Creation of Variables */
 :root {
     --color-primary: #d73953;
