@@ -1,0 +1,19 @@
+/* Write a Sass file that assigns:
+Font size 12px to all tags of class .info
+Text color #00FF00 to all tags of class .success and extend style of the class .info
+Text color #FF0000 to all tags of class .warning and extend style of the class .info */
+
+$fontsize: 12px;
+$color1: #00FF00;
+$color2: #FF0000;
+.info {
+font-size: $fontsize;
+}
+.sucess {
+color: $color1;
+@extend .info;
+}
+.warning {
+color: $color2;
+@extend .info;
+}
