@@ -9,7 +9,7 @@ $color2: #FF0000;
 .info {
 font-size: $fontsize;
 }
-.sucess {
+.success {
 color: $color1;
 @extend .info;
 }
